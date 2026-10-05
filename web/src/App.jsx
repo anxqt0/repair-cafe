@@ -11,7 +11,7 @@ const languages = {
     bookingKicker: 'BOOK A REPAIR', bookingTitle: 'จองคิวซ่อม', durationNote: 'ใช้เวลาประมาณ 1 ชั่วโมง', partsNote: 'ค่าอะไหล่คุยกันที่หน้างาน',
     visitorName: 'ชื่อผู้จอง', visitorPlaceholder: 'ชื่อที่ให้ช่างเรียก', itemName: 'ของที่ต้องการซ่อม', itemPlaceholder: 'เช่น โคมไฟตั้งโต๊ะ', repairType: 'ประเภทงานซ่อม', chooseRepair: 'เลือกประเภทงาน', chooseTechnician: 'เลือกช่าง',
     repairTypes: ['จักรยาน', 'เครื่องใช้ไฟฟ้า', 'เสื้อผ้าและสิ่งทอ', 'อุปกรณ์อิเล็กทรอนิกส์', 'ของใช้ในบ้าน', 'ยังไม่แน่ใจ'],
-    specialties: { 'จักรยาน': 'Bicycles', 'เครื่องใช้ไฟฟ้า': 'Small appliances', 'อุปกรณ์อิเล็กทรอนิกส์': 'Electronics', 'ของใช้ในบ้าน': 'Home items, furniture & toys', 'เสื้อผ้าและสิ่งทอ': 'Clothing & textiles' },
+    specialties: { 'จักรยาน': 'จักรยาน', 'เครื่องใช้ไฟฟ้า': 'เครื่องใช้ไฟฟ้า', 'อุปกรณ์อิเล็กทรอนิกส์': 'อุปกรณ์อิเล็กทรอนิกส์', 'ของใช้ในบ้าน': 'ของใช้ในบ้าน', 'เสื้อผ้าและสิ่งทอ': 'เสื้อผ้าและสิ่งทอ' },
     repairTypeEnglish: { 'จักรยาน': 'Bicycle', 'เครื่องใช้ไฟฟ้า': 'Small appliance', 'เสื้อผ้าและสิ่งทอ': 'Clothing & textiles', 'อุปกรณ์อิเล็กทรอนิกส์': 'Electronics', 'ของใช้ในบ้าน': 'Home item', 'ยังไม่แน่ใจ': 'Not sure yet' },
     date: 'วันที่ต้องการซ่อม', time: 'เวลาเริ่มซ่อม', chooseDateFirst: 'เลือกวันที่ก่อน', chooseTime: 'เลือกเวลา', past: 'ผ่านไปแล้ว', timeHelp: 'เริ่มทุกต้นชั่วโมง ใช้เวลาประมาณ 1 ชั่วโมง',
     details: 'เพิ่มรายละเอียดอาการ', optional: 'ไม่บังคับ', detailsPlaceholder: 'เล่าอาการที่พบสั้น ๆ', submit: 'ยืนยันการจอง', submitting: 'กำลังจอง…', success: 'จองคิวสำเร็จ ปุ่มยกเลิกนัดจะอยู่ในอุปกรณ์นี้',
