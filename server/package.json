@@ -1,0 +1,22 @@
+{
+  "name": "repair-cafe-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Community repair booking API — Node.js + Express + Azure SQL",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "db:setup": "node setup-db.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mssql": "^11.0.1"
+  }
+}
