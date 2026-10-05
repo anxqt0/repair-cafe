@@ -217,7 +217,7 @@ export default function App() {
         </section>
       </main>
 
-      <footer className="site-footer"><a className="brand" href="#top"><span className="brand-mark">✳</span> repair<span>café</span></a><span>© 2024 Repair Café Bangkok</span></footer>
+      <footer className="site-footer"><span>Repair Café Bangkok</span></footer>
     </div>
   );
 }
